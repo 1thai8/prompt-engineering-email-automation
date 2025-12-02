@@ -1,0 +1,30 @@
+[
+  {
+    "id": "case-001",
+    "description": "Customer asks for delivery date, friendly tone",
+    "thread_text": "Hi, I ordered item #123 on Oct 10. When will it be delivered?",
+    "constraints": {
+      "tone": "friendly",
+      "word_limit": 40,
+      "facts": "order #123, placed Oct 10"
+    },
+    "expected_behavior": {
+      "contains": ["delivery", "order #123"],
+      "clarifying_question": ""
+    }
+  },
+  {
+    "id": "case-002",
+    "description": "Missing info — ask clarifying question",
+    "thread_text": "Can you schedule a demo next week?",
+    "constraints": {
+      "tone": "professional",
+      "word_limit": 50,
+      "facts": ""
+    },
+    "expected_behavior": {
+      "contains": ["When are you available", "time zone"],
+      "clarifying_question": "asks for availability or timezone"
+    }
+  }
+]
