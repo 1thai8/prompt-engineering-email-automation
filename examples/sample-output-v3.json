@@ -1,0 +1,14 @@
+{
+  "version": "v3",
+  "test_case": "case-003",
+  "input": {
+    "thread_text": "{cole aqui o thread usado no teste}",
+    "constraints": {
+      "tone": "{tone}",
+      "word_limit": "{word_limit}",
+      "facts": "{facts}"
+    }
+  },
+  "model_output": "<cole aqui a resposta que o ChatGPT gerou para o prompt v3>",
+  "notes": "Short note: if model followed rules (tone, length, CTA, no hallucination) and any clarifying question produced."
+}
