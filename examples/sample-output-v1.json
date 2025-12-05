@@ -1,0 +1,14 @@
+{
+  "version": "v1",
+  "test_case": "case-001",
+  "input": {
+    "thread_text": "Hi, I ordered item #123 on Oct 10. When will it be delivered?",
+    "constraints": {
+      "tone": "friendly",
+      "word_limit": 40,
+      "facts": "order #123, placed Oct 10"
+    }
+  },
+  "model_output": "<cole aqui a resposta que o ChatGPT gerou>",
+  "notes": "Short note on if the model followed tone, answered the question, included CTA, and avoided hallucination."
+}
