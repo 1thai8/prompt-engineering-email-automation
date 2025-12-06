@@ -32,3 +32,5 @@ This repository contains prompt engineering work focused on automating email tas
 - Include `examples/` to demonstrate real model outputs.
 - Optional: add short video/GIF of prompt in action.
 - Use commit history to highlight improvements and rationale.
+
+
