@@ -1,22 +1,25 @@
 # Prompt Engineering — Email Automation
 
 ## Overview
-This repository contains prompt engineering work focused on automating email tasks (summaries, reply drafting, triage). It demonstrates iterative development (v1 → v2), test cases, metrics, and rationale — suitable for portfolio and recruiters.
+This repository contains prompt engineering work focused on automating email tasks (summaries, reply drafting, triage). It demonstrates iterative development (v1 → v3), test cases, examples, and rationale — suitable for portfolio and recruiters.
 
-# Structure
-- `prompts/` - prompt versions (prompt-v1.txt, prompt-v2.txt)
-- `tests/` - test cases used to evaluate prompts (JSON)
-- `metrics/` - metrics and evaluation templates
-- `CHANGELOG.md` - history of improvements and reasoning
-- `INSIGHTS.md` - technical decisions and notes
+## Structure
+- `prompts/` — all prompt versions:
+  - `prompt_v1_email_assistant.md`  
+  - `prompt_v2_email_assistant.md`  
+  - `prompt_v3_email_assistant.md`  
+- `tests/` — scripts and test cases (`run_test.py`, `test-case.json`)  
+- `examples/` — sample outputs from each prompt version (`sample-output-v1.json`, `sample-output-v2.json`, `sample-output-v3.json`)  
+- `README.md` — project documentation  
 
-# How to evaluate locally (manual)
-1. Use any LLM playground (OpenAI, Anthropic, etc.) or local LLM.
-2. Load `prompts/prompt-v1.txt` and run the test inputs from `tests/test-cases.json`.
-3. Save outputs and record metric values in `metrics/metrics-template.md`.
+## How to evaluate locally
+1. Open any LLM playground (OpenAI, Anthropic, etc.) or local LLM.  
+2. Copy a prompt from `prompts/` and fill in the input placeholders.  
+3. Run the prompt with test cases from `tests/test-case.json`.  
+4. Save outputs in `examples/` and optionally record metrics or notes in the `notes` fields.
 
-# How to present to recruiters 
-- Show before/after examples (v1 vs v2).
-- Include a short video/GIF of prompt in action or a link to outputs saved in `examples/`.
-- Use commit history to explain changes.
-
+## How to present to recruiters
+- Show prompt evolution (v1 → v2 → v3) with outputs.  
+- Include `examples/` to demonstrate real model outputs.  
+- Optional: add short video/GIF of prompt in action.  
+- Use commit history to highlight improvements and rationale.
