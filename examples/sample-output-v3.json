@@ -2,13 +2,13 @@
   "version": "v3",
   "test_case": "case-003",
   "input": {
-    "thread_text": "{cole aqui o thread usado no teste}",
+    "thread_text": "Hi, I submitted the documents last Friday. Do you know if my application is already approved?",
     "constraints": {
-      "tone": "{tone}",
-      "word_limit": "{word_limit}",
-      "facts": "{facts}"
+      "tone": "professional but warm",
+      "word_limit": "80",
+      "facts": "documents submitted Friday; approval depends on internal review"
     }
   },
-  "model_output": "<cole aqui a resposta que o ChatGPT gerou para o prompt v3>",
+  "model_output": "Subject: Re: Document Submission Status\n\nHello,\n\nThank you for confirming that you submitted your documents last Friday. We have received them, and your application is currently moving through our internal review process. Approval timelines vary depending on volume and complexity, but we aim to complete the review as quickly as possible. We will notify you immediately once a final decision has been made.\n\nIs there a specific deadline you are working towards for the application to be approved?",
   "notes": "Short note: if model followed rules (tone, length, CTA, no hallucination) and any clarifying question produced."
 }
