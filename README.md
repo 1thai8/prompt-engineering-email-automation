@@ -34,3 +34,7 @@ This repository contains prompt engineering work focused on automating email tas
 - Use commit history to highlight improvements and rationale.
 
 
+## Link to demo video
+https://github.com/1thai8/prompt-engineering-email-automation/blob/main/demos/demo_prompt_v3.mp4
+
+
