@@ -1,5 +1,10 @@
-# Prompt Engineering — Email Automation
+# Prompt Engineering — Email Automation (v1→v3)
 
+> Iterative prompt engineering project for email automation tasks. Includes 3 prompt versions, test cases, sample outputs, metrics, and changelog — built for portfolio and recruitment.
+
+![Python](https://img.shields.io/badge/Python-3.x-blue) ![LLM](https://img.shields.io/badge/LLM-OpenAI%2FAnthropic-purple) ![Status](https://img.shields.io/badge/Status-Portfolio%20Ready-green)
+
+---
 ## Overview
 This repository contains prompt engineering work focused on automating email tasks (summaries, reply drafting, triage). It demonstrates iterative development (v1 → v3), test cases, examples, and rationale — suitable for portfolio and recruiters.
 
